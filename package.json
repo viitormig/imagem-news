@@ -1,8 +1,18 @@
 {
 	"name": "mean-song-rate",
 	"version": "0.0.1",
+	"description": "Imagem News 2017",
+	"main": "app.js",
+	"scripts": {
+	 	"test": "echo \"Error: no test specified\" && exit 1",
+	 	"start": "node app.js"
+	},
+	"author": "",
+	"license": "ISC",
 	"dependencies": {
 		"mongoose": "~3.6.14",
-		"express": "~3.3.4"
+		"express": "~3.3.4",
+		"body-parser": "~1.4.2",
+		"method-override": "~2.0.2"
 	}
 }
