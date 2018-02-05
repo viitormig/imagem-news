@@ -1,6 +1,5 @@
-app.controller('HomeController', ['$rootScope', '$location', '$scope', '$cookieStore',
-	function($rootScope, $location, $scope, $cookieStore){
+app.controller('HomeController', ['$rootScope', '$scope', 
+	function($rootScope, $scope){
 
-	$rootScope.activetab = $location.path();
 	
 }]);
