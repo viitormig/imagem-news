@@ -1,4 +1,4 @@
-<html lang="pt-br" ng-app="app">
+<html lang="pt-br" ng-app="app" class="full-height">
 	<head>
 
 		<meta charset="utf-8">
@@ -7,26 +7,40 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>In Obra</title>
+        <title>Imagem News</title>
 
         <base href="/">
 
     	<link rel="shortcut icon" href="img/icone_app.png">
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/MDBootstrap/css/mdb.min.css">
+
+        <link rel="stylesheet" href="style/css/base.css">
 
 	</head>
+
 	<body>
 
-        <p>ola</p>
+        <header>
+
+            <div header></div>
+            <div intro></div>
+
+        </header>
 
         <div class="body-app">
+
             <div ng-view></div>
+
         </div>
 
 	    <footer>
+
 	    	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
             <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="bower_components/MDBootstrap/js/mdb.min.js"></script>
             <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
             <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
 
@@ -34,6 +48,10 @@
             <script type="text/javascript" src="app/routes.js"></script>
 
             <script type="text/javascript" src="app/controllers/HomeController.js"></script>
+
+            <script type="text/javascript" src="app/directives/header.js"></script>
+            <script type="text/javascript" src="app/directives/intro.js"></script>
+
 	    </footer>
 
 	</body>
