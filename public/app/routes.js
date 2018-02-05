@@ -7,7 +7,7 @@ app.config(function($routeProvider, $locationProvider, $httpProvider) {
 	});
 	// Rotas Angularjs
 	$routeProvider
-		.when('/home',{
+		.when('/',{
 			templateUrl: 'views/home/index.html',
 			controller: 'HomeController',
 		})
